@@ -1,5 +1,5 @@
 <?php
-require_once "../includes/auth.php"; // Protect the page
+require_once "../includes/auth.php";  
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +18,7 @@ require_once "../includes/auth.php"; // Protect the page
     <a href="incidents/index.php" class="btn btn-primary mb-2">🚨 Incident Reports</a><br>
     <a href="requests/index.php" class="btn btn-primary mb-2">📩 Client Requests</a><br>
     <a href="reports/index.php" class="btn btn-primary mb-2">📊 Reports</a><br>
+    <a href="../logout.php" class="btn btn-danger mt-4">🚪 Logout</a>
     <a href="../logout.php" class="btn btn-danger mt-4">🚪 Logout</a>
   </div>
 </body>
