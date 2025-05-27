@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8fffb;
+  margin: 0;
+  padding: 0;
+}
+
+.container-wrapper {
+  padding: 20px;
+}
+
+.card {
+  border-radius: 14px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+  /* .sidebar {
+    display: none; /* Hide sidebar on small screens */
+  } */
+}
